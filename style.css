@@ -1,0 +1,128 @@
+/* Colors and fonts */
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1, h2, h3 {
+	font-family: Roboto;
+}
+
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #6dd100;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: Roboto; 
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: bold;
+}
+
+a :hover {
+	color: black;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 750px)  {
+	.container {
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 500px)  {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+.transparent-text {
+	color: transparent;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-clip: text;
+}
+
+
+
+
+
+
